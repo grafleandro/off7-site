@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.off7tecnologias.com.br/sitemap.xml

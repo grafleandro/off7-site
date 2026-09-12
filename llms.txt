@@ -1,0 +1,37 @@
+# Off7 Soluções Tecnológicas
+
+> Consultoria especialista em aplicar tecnologia e inteligência artificial em negócios reais de pequeno e médio porte. Em vez de relatórios e apresentações, a Off7 implanta sistemas que entram em produção e continuam rodando.
+
+Off7 é uma consultoria de tecnologia brasileira com mais de 10 anos de experiência, 10 parceiros comerciais, 8 sistemas em produção e 2 prêmios da indústria. Atua com consultoria em TI, automação de processos, ciência de dados aplicada e integração de ecossistemas (WhatsApp, ERP, planilhas). O diferencial da empresa é a entrega de ferramentas usadas no dia a dia da operação do cliente, não apenas diagnósticos ou recomendações.
+
+## Produtos
+
+- [SevenCRM](https://www.off7tecnologias.com.br/sevencrm/): CRM de atendimento via WhatsApp voltado especificamente para pequenas e médias empresas que atendem clientes por WhatsApp com mais de uma pessoa na equipe. Principais características:
+  - Fila de atendimento: mensagens novas caem numa fila de pendentes; um atendente assume a conversa e ela passa a ser exclusiva dele (e de supervisores/administradores), evitando duplicidade de resposta.
+  - Quatro papéis de acesso: Operador, Hunter (gera atendimento fora do fluxo padrão, sem acesso à fila geral), Supervisor e Administrador — cada um com um nível diferente de visibilidade e permissão.
+  - Qualquer papel pode transferir uma conversa para outro atendente a qualquer momento.
+  - Conecta uma ou várias contas de WhatsApp ao mesmo painel. A conexão funciona como um dispositivo vinculado (o mesmo mecanismo do WhatsApp Web/Desktop) — o WhatsApp ou WhatsApp Business continua funcionando normalmente no celular do usuário, sem ser bloqueado ou substituído.
+  - Disparo de mensagens em massa via planilha (.csv ou .xlsx) com três colunas — nome, contato, mensagem. Cada número é validado diretamente no WhatsApp antes do envio (não é uma suposição de formatação). Linhas incompletas são ignoradas sem travar o restante do arquivo. Limite de 25 contatos por planilha, com intervalo aleatório de 15 a 45 segundos entre cada envio para reduzir o risco de bloqueio por spam.
+  - Atualização em tempo real via WebSockets — fila, transferências e mensagens aparecem na hora, sem precisar recarregar a página.
+  - Login com JWT e controle de acesso por papel; log de auditoria de cada ação (quem assumiu, transferiu ou encerrou uma conversa).
+  - Está em produção desde 2026, inclusive dentro da própria operação da Off7.
+
+## Serviços
+
+- Consultoria em TI: arquitetura de sistemas e escolha de stack pensadas para o crescimento da empresa nos próximos anos, não só para o problema atual.
+- Automação de processos: automações operacionais sob medida. Exemplo real: automação que lê o relógio de ponto eletrônico de uma empresa cliente e avisa automaticamente quem não bateu o ponto.
+- Ciência de dados aplicada: organização de dados que a empresa já coleta, transformados em decisões práticas, sem exigir montar um time de dados interno.
+- Atendimento e integração de ecossistema: WhatsApp, ERP e planilhas trocando informação entre si.
+- Gestão de infraestrutura: hospedagem de site institucional, e-mail profissional e servidores para empresas que não têm time de TI próprio.
+
+## Provas de campo (clientes reais)
+
+- Souzamaq Peças e Serviços (Amambai/MS, Brasil): empresa de auto peças e serviços automotivos. A Off7 gerencia o site institucional, e-mail profissional, servidor e infraestrutura, e construiu uma automação de leitura de relógio de ponto eletrônico.
+- Maryane Mundim: psicóloga e mentora de carreira que usa WhatsApp para agendamento e atendimento de pacientes — caso de uso real do SevenCRM para um profissional autônomo.
+
+## Contato
+
+- WhatsApp: https://api.whatsapp.com/send?phone=5567991216024
+- Site: https://www.off7tecnologias.com.br
+- LinkedIn: https://www.linkedin.com/company/off7-solucoes-tecnologicas
+- Instagram: https://www.instagram.com/off7_contech/
