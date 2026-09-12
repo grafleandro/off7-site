@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SevenCRM</title>
+  <meta name="description" content="SevenCRM — o CRM de WhatsApp multiagente da Off7 Soluções Tecnológicas. Fila de atendimento, papéis de acesso e disparo em planilha.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,500&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="navrow">
+    <div class="brand"><span class="off7">O7</span>SevenCRM</div>
+    <nav class="links">
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#papeis">Papéis de acesso</a>
+      <a href="#disparo">Disparo em planilha</a>
+      <a href="#seguranca">Segurança</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="https://api.whatsapp.com/send?phone=5567991216024&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20SevenCRM." target="_blank" rel="noopener">Falar no WhatsApp</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Um produto Off7 Soluções Tecnológicas</p>
+        <h1>O whatsapp da empresa,<br>organizado por <em>fila</em> —<br>não por quem responde primeiro.</h1>
+        <p class="lede">SevenCRM conecta um ou vários números de WhatsApp a um único painel, distribui as conversas automaticamente entre os atendentes e garante que cada cliente tenha sempre um responsável — sem grupo de zap, sem celular passando de mão em mão.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5567991216024&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20SevenCRM." target="_blank" rel="noopener">Falar com um especialista</a>
+          <a class="btn btn-ghost" href="#como-funciona">Ver como funciona ↓</a>
+        </div>
+        <p class="hero-note"><span class="dot"></span> Múltiplos números de WhatsApp, um painel só, atualizado em tempo real.</p>
+      </div>
+
+      <div>
+        <div class="panel">
+          <div class="panel-head">
+            <span class="title">Fila de atendimento</span>
+            <div class="traffic"><span></span><span></span><span></span></div>
+          </div>
+
+          <div class="queue-row">
+            <div class="avatar" style="background:#B04949">ME</div>
+            <div>
+              <div class="qname">Maria Eduarda Santos</div>
+              <div class="qmsg">Preciso remarcar minha consulta de quinta…</div>
+            </div>
+            <div class="qmeta"><span class="qtime">2 min</span><span class="pill pill-pending">Pendente</span></div>
+          </div>
+
+          <div class="queue-row">
+            <div class="avatar" style="background:#3E7BFF">CH</div>
+            <div>
+              <div class="qname">Carlos Henrique Lima</div>
+              <div class="qmsg">Perfeito, muito obrigado pela atenção!</div>
+            </div>
+            <div class="qmeta"><span class="qtime">8 min</span><span class="pill pill-active">Com Lucas B.</span></div>
+          </div>
+
+          <div class="queue-row">
+            <div class="avatar" style="background:#7A5CC0">FN</div>
+            <div>
+              <div class="qname">Fábrica Nova Aliança</div>
+              <div class="qmsg">Podem confirmar o pedido nº 4471?</div>
+            </div>
+            <div class="qmeta"><span class="qtime">21 min</span><span class="pill pill-transfer">Ana → Rafael</span></div>
+          </div>
+
+          <div class="thread">
+            <div class="bubble in">Oi, ainda não recebi retorno sobre a consulta 🙁</div>
+            <div class="bubble out">Boa tarde, Maria! Já encontrei seu agendamento, vou te ajudar agora mesmo.</div>
+            <span class="chip-action">Transferir para Rafael ›</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-line">
+    <p class="eyebrow">O problema de hoje</p>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="k">1 número, N celulares</div>
+        <div class="d">Time inteiro dividindo o mesmo aparelho — ou, pior, revezando quem fica com o celular da empresa.</div>
+      </div>
+      <div class="problem-card">
+        <div class="k">Ninguém sabe quem já respondeu</div>
+        <div class="d">Duas pessoas respondendo o mesmo cliente, ou nenhuma — sem fila, sem dono do atendimento.</div>
+      </div>
+      <div class="problem-card">
+        <div class="k">Cliente reconta tudo de novo</div>
+        <div class="d">Toda troca de atendente é o cliente explicando o problema outra vez, do zero.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-line" id="como-funciona">
+    <p class="eyebrow">Como funciona</p>
+    <h2 style="font-size:clamp(1.7rem,3.2vw,2.3rem);margin-top:10px;">Da mensagem ao histórico, com dono em cada etapa</h2>
+    <div class="flow">
+      <div class="flow-step">
+        <div class="flow-num">01</div>
+        <h3>Mensagem chega</h3>
+        <p>Cai direto na fila de pendentes — visível para todos os atendentes com acesso àquele número.</p>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">02</div>
+        <h3>Um atendente assume</h3>
+        <p>A partir daí, só ele (e supervisores/administradores) enxergam essa conversa. Sem duplicidade.</p>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">03</div>
+        <h3>Pode transferir a qualquer momento</h3>
+        <p>Qualquer papel — inclusive operador — pode passar a conversa pra outro colega, sem depender de supervisão.</p>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">04</div>
+        <h3>Encerra e fica auditável</h3>
+        <p>Histórico completo, com quem atendeu e quando, disponível pra consulta depois.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-line" id="papeis">
+    <p class="eyebrow">Papéis de acesso</p>
+    <h2 style="font-size:clamp(1.7rem,3.2vw,2.3rem);margin-top:10px;">Quatro perfis, cada um vendo só o que precisa</h2>
+    <p class="lede" style="margin-top:12px;">Inclui um papel pensado pra quem gera atendimento fora do fluxo padrão — como um hunter de vendas — sem dar acesso à fila geral.</p>
+    <div class="table-scroll">
+      <table class="roles">
+        <thead>
+          <tr>
+            <th>Papel</th>
+            <th>Fila de pendentes</th>
+            <th>Só as próprias conversas</th>
+            <th>Vê tudo da conta</th>
+            <th>Transfere conversas</th>
+            <th>Gerencia WhatsApp e usuários</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="role">Operador<span class="tag">operator</span></td>
+            <td class="yes">Sim</td>
+            <td class="yes">Sim</td>
+            <td class="no">—</td>
+            <td class="yes">Sim</td>
+            <td class="no">—</td>
+          </tr>
+          <tr>
+            <td class="role">Hunter<span class="tag">hunter</span></td>
+            <td class="no">—</td>
+            <td class="yes">Sim</td>
+            <td class="no">—</td>
+            <td class="yes">Sim</td>
+            <td class="no">—</td>
+          </tr>
+          <tr>
+            <td class="role">Supervisor<span class="tag">supervisor</span></td>
+            <td class="yes">Sim</td>
+            <td class="no">—</td>
+            <td class="yes">Sim</td>
+            <td class="yes">Sim</td>
+            <td class="no">—</td>
+          </tr>
+          <tr>
+            <td class="role">Administrador<span class="tag">administrator</span></td>
+            <td class="yes">Sim</td>
+            <td class="no">—</td>
+            <td class="yes">Sim</td>
+            <td class="yes">Sim</td>
+            <td class="yes">Sim</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section-line" id="disparo">
+    <p class="eyebrow">Disparo em planilha</p>
+    <h2 style="font-size:clamp(1.7rem,3.2vw,2.3rem);margin-top:10px;">Inicie várias conversas de uma vez — sem perder o número</h2>
+    <div class="feature">
+      <div>
+        <p class="lede">Suba uma planilha com três colunas — <b class="mono" style="color:var(--text)">nome</b>, <b class="mono" style="color:var(--text)">contato</b> e <b class="mono" style="color:var(--text)">mensagem</b> — e o SevenCRM abre uma conversa pra cada linha válida, já com a mensagem enviada.</p>
+        <ul class="spec-list">
+          <li>Cada número é <b>validado direto no WhatsApp</b> antes do envio — não é um "chute" de formatação, é a resposta real da API.</li>
+          <li>Linha com dado faltando é <b>ignorada</b>, o resto da planilha continua normalmente.</li>
+          <li>Até <b>25 contatos</b> por planilha, aceita <b>.csv</b> e <b>.xlsx</b>.</li>
+          <li>Envio <b>espaçado de 15 a 45 segundos</b> entre cada mensagem — de propósito, não é bug.</li>
+        </ul>
+        <div class="warn-box">
+          <span class="ico">▲</span>
+          <p><strong>Use com responsabilidade:</strong> mandar mensagem pra quem nunca falou com o número pode ser lido como spam pelo WhatsApp. A ferramenta reduz o risco, mas a lista de contatos é sua.</p>
+        </div>
+      </div>
+      <div>
+        <div class="sheet">
+          <div class="sheet-head"><div>nome</div><div>contato</div><div>mensagem</div></div>
+          <div class="sheet-row"><div class="num">João Pedro</div><div class="num">55 67 9917-0889</div><div>Oi João, temos novidade pra sua loja</div></div>
+          <div class="sheet-row"><div class="num">Camila Reis</div><div class="num">55 11 9888-2211</div><div>Oi Camila, tudo certo com o pedido?</div></div>
+          <div class="sheet-row"><div class="num">Depósito RS</div><div class="num">55 51 9700-1144</div><div>Bom dia! Confirmando a entrega de hoje</div></div>
+        </div>
+        <div class="progress">
+          <div class="progress-row"><span class="ok">✓</span><span class="txt">João Pedro — <b>enviado</b>, aguardando próximo em 32s</span></div>
+          <div class="progress-row"><span class="ok">✓</span><span class="txt">Camila Reis — <b>enviado</b></span></div>
+          <div class="progress-row"><span class="bad">✕</span><span class="txt">Depósito RS — número não encontrado no WhatsApp</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-line" id="seguranca">
+    <p class="eyebrow">Segurança &amp; controle</p>
+    <div class="sec-grid">
+      <div class="sec-card">
+        <div class="ico">Auth</div>
+        <h3>Login com JWT e papéis</h3>
+        <p>Cada ação respeita o papel do usuário — sem depender de combinar regras "de boca" com o time.</p>
+      </div>
+      <div class="sec-card">
+        <div class="ico">Multi-conta</div>
+        <h3>Vários números, um painel</h3>
+        <p>Conecte mais de uma conta de WhatsApp e controle quem enxerga cada uma.</p>
+      </div>
+      <div class="sec-card">
+        <div class="ico">Realtime</div>
+        <h3>Sem precisar recarregar</h3>
+        <p>Fila, transferências e mensagens novas aparecem na hora pra todo mundo conectado.</p>
+      </div>
+      <div class="sec-card">
+        <div class="ico">Log</div>
+        <h3>Auditoria de cada ação</h3>
+        <p>Quem assumiu, transferiu ou encerrou fica registrado — sem depender de perguntar no grupo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-line">
+    <p class="eyebrow">Quem constrói o SevenCRM</p>
+    <h2 style="font-size:clamp(1.6rem,3vw,2.1rem);margin-top:10px;max-width:26ch;">A mesma consultoria por trás de projetos de tecnologia há mais de uma década</h2>
+    <div class="stat-grid">
+      <div class="stat"><div class="n">10</div><div class="l">anos de experiência</div></div>
+      <div class="stat"><div class="n">10</div><div class="l">parceiros comerciais</div></div>
+      <div class="stat"><div class="n">8</div><div class="l">produtos instalados</div></div>
+      <div class="stat"><div class="n">2</div><div class="l">prêmios da indústria</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cta-block">
+      <p class="eyebrow" style="justify-content:center;">Vamos conversar</p>
+      <h2 style="margin-top:10px;">Pronto pra tirar o atendimento<br>do improviso?</h2>
+      <p class="lede">Conta pra gente como sua equipe atende hoje — a Off7 monta a fila, os papéis e conecta seus números de WhatsApp ao SevenCRM.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5567991216024&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20SevenCRM." target="_blank" rel="noopener">Chamar no WhatsApp agora</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footrow">
+      <span><span class="mono">Off7</span> Soluções Tecnológicas — SevenCRM é um produto próprio</span>
+      <a href="../">off7tecnologias.com.br ↗</a>
+    </div>
+  </footer>
+
+</main>
+</body>
+</html>
