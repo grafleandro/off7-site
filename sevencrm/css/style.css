@@ -249,6 +249,14 @@ table.roles td.role .tag{display:block;font-family:'JetBrains Mono';font-weight:
 .sec-card h3{font-family:'Barlow';text-transform:none;font-weight:700;font-size:.98rem;letter-spacing:0;margin-bottom:6px;}
 .sec-card p{font-size:.84rem;color:var(--text-dim);line-height:1.5;}
 
+/* ---------- clientes reais ---------- */
+.clients-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:32px;}
+@media (max-width:760px){ .clients-grid{grid-template-columns:1fr;} }
+.client-card{background:var(--surface);padding:26px 24px;display:flex;flex-direction:column;gap:14px;}
+.client-card img{max-width:160px;max-height:44px;width:auto;height:auto;object-fit:contain;align-self:flex-start;}
+.client-name{font-weight:700;font-size:.98rem;text-transform:none;font-family:'Barlow';letter-spacing:0;}
+.client-card p{font-size:.86rem;color:var(--text-dim);line-height:1.55;}
+
 /* ---------- stats / credibility ---------- */
 .stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:34px;}
 @media (max-width:760px){ .stat-grid{grid-template-columns:1fr 1fr;} }
